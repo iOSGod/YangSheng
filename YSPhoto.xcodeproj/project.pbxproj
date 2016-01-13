@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCECF8641C07290F00136E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECF8631C07290F00136E32 /* Foundation.framework */; };
+		BCECF8661C07290F00136E32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECF8651C07290F00136E32 /* CoreGraphics.framework */; };
+		BCECF8681C07290F00136E32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECF8671C07290F00136E32 /* UIKit.framework */; };
+		BCECF86E1C07290F00136E32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCECF86C1C07290F00136E32 /* InfoPlist.strings */; };
+		BCECF8701C07290F00136E32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECF86F1C07290F00136E32 /* main.m */; };
+		BCECF8741C07290F00136E32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECF8731C07290F00136E32 /* AppDelegate.m */; };
+		BCECF8761C07290F00136E32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8751C07290F00136E32 /* Images.xcassets */; };
+		BCECF87D1C07290F00136E32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECF87C1C07290F00136E32 /* XCTest.framework */; };
+		BCECF87E1C07290F00136E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECF8631C07290F00136E32 /* Foundation.framework */; };
+		BCECF87F1C07290F00136E32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECF8671C07290F00136E32 /* UIKit.framework */; };
+		BCECF8871C07290F00136E32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8851C07290F00136E32 /* InfoPlist.strings */; };
+		BCECF8891C07290F00136E32 /* YSPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECF8881C07290F00136E32 /* YSPhotoTests.m */; };
+		BCECF8941C07291C00136E32 /* YSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECF8931C07291C00136E32 /* YSRootViewController.m */; };
+		BCECF8BB1C072DE900136E32 /* a0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8971C072DE900136E32 /* a0.jpg */; };
+		BCECF8BC1C072DE900136E32 /* a1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8981C072DE900136E32 /* a1.jpg */; };
+		BCECF8BD1C072DE900136E32 /* a10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8991C072DE900136E32 /* a10.jpg */; };
+		BCECF8BE1C072DE900136E32 /* a11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF89A1C072DE900136E32 /* a11.jpg */; };
+		BCECF8BF1C072DE900136E32 /* a12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF89B1C072DE900136E32 /* a12.jpg */; };
+		BCECF8C01C072DE900136E32 /* a2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF89C1C072DE900136E32 /* a2.jpg */; };
+		BCECF8C11C072DE900136E32 /* a3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF89D1C072DE900136E32 /* a3.jpg */; };
+		BCECF8C21C072DE900136E32 /* a4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF89E1C072DE900136E32 /* a4.jpg */; };
+		BCECF8C31C072DE900136E32 /* a5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF89F1C072DE900136E32 /* a5.jpg */; };
+		BCECF8C41C072DE900136E32 /* a6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A01C072DE900136E32 /* a6.jpg */; };
+		BCECF8C51C072DE900136E32 /* a7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A11C072DE900136E32 /* a7.jpg */; };
+		BCECF8C61C072DE900136E32 /* a8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A21C072DE900136E32 /* a8.jpg */; };
+		BCECF8C71C072DE900136E32 /* a9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A31C072DE900136E32 /* a9.jpg */; };
+		BCECF8C81C072DE900136E32 /* b0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A51C072DE900136E32 /* b0.jpg */; };
+		BCECF8C91C072DE900136E32 /* b1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A61C072DE900136E32 /* b1.jpg */; };
+		BCECF8CA1C072DE900136E32 /* b2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A71C072DE900136E32 /* b2.jpg */; };
+		BCECF8CB1C072DE900136E32 /* b3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A81C072DE900136E32 /* b3.jpg */; };
+		BCECF8CC1C072DE900136E32 /* b4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8A91C072DE900136E32 /* b4.jpg */; };
+		BCECF8CD1C072DE900136E32 /* b5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8AA1C072DE900136E32 /* b5.jpg */; };
+		BCECF8CE1C072DE900136E32 /* b6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8AB1C072DE900136E32 /* b6.jpg */; };
+		BCECF8CF1C072DE900136E32 /* b7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8AC1C072DE900136E32 /* b7.jpg */; };
+		BCECF8D01C072DE900136E32 /* b8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8AD1C072DE900136E32 /* b8.jpg */; };
+		BCECF8D11C072DE900136E32 /* b9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8AE1C072DE900136E32 /* b9.jpg */; };
+		BCECF8D21C072DE900136E32 /* c0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B01C072DE900136E32 /* c0.jpg */; };
+		BCECF8D31C072DE900136E32 /* c1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B11C072DE900136E32 /* c1.jpg */; };
+		BCECF8D41C072DE900136E32 /* c10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B21C072DE900136E32 /* c10.jpg */; };
+		BCECF8D51C072DE900136E32 /* c2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B31C072DE900136E32 /* c2.jpg */; };
+		BCECF8D61C072DE900136E32 /* c3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B41C072DE900136E32 /* c3.jpg */; };
+		BCECF8D71C072DE900136E32 /* c4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B51C072DE900136E32 /* c4.jpg */; };
+		BCECF8D81C072DE900136E32 /* c5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B61C072DE900136E32 /* c5.jpg */; };
+		BCECF8D91C072DE900136E32 /* c6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B71C072DE900136E32 /* c6.jpg */; };
+		BCECF8DA1C072DE900136E32 /* c7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B81C072DE900136E32 /* c7.jpg */; };
+		BCECF8DB1C072DE900136E32 /* c8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8B91C072DE900136E32 /* c8.jpg */; };
+		BCECF8DC1C072DE900136E32 /* c9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8BA1C072DE900136E32 /* c9.jpg */; };
+		BCECF8DF1C07382800136E32 /* YSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCECF8DE1C07382800136E32 /* YSSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCECF8801C07290F00136E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCECF8581C07290F00136E32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCECF85F1C07290F00136E32;
+			remoteInfo = YSPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCECF8601C07290F00136E32 /* YSPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCECF8631C07290F00136E32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCECF8651C07290F00136E32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCECF8671C07290F00136E32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCECF86B1C07290F00136E32 /* YSPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSPhoto-Info.plist"; sourceTree = "<group>"; };
+		BCECF86D1C07290F00136E32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCECF86F1C07290F00136E32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCECF8711C07290F00136E32 /* YSPhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YSPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		BCECF8721C07290F00136E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCECF8731C07290F00136E32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCECF8751C07290F00136E32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCECF87B1C07290F00136E32 /* YSPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCECF87C1C07290F00136E32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCECF8841C07290F00136E32 /* YSPhotoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSPhotoTests-Info.plist"; sourceTree = "<group>"; };
+		BCECF8861C07290F00136E32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCECF8881C07290F00136E32 /* YSPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSPhotoTests.m; sourceTree = "<group>"; };
+		BCECF8921C07291C00136E32 /* YSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSRootViewController.h; sourceTree = "<group>"; };
+		BCECF8931C07291C00136E32 /* YSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSRootViewController.m; sourceTree = "<group>"; };
+		BCECF8971C072DE900136E32 /* a0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a0.jpg; sourceTree = "<group>"; };
+		BCECF8981C072DE900136E32 /* a1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a1.jpg; sourceTree = "<group>"; };
+		BCECF8991C072DE900136E32 /* a10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a10.jpg; sourceTree = "<group>"; };
+		BCECF89A1C072DE900136E32 /* a11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a11.jpg; sourceTree = "<group>"; };
+		BCECF89B1C072DE900136E32 /* a12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a12.jpg; sourceTree = "<group>"; };
+		BCECF89C1C072DE900136E32 /* a2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a2.jpg; sourceTree = "<group>"; };
+		BCECF89D1C072DE900136E32 /* a3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a3.jpg; sourceTree = "<group>"; };
+		BCECF89E1C072DE900136E32 /* a4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a4.jpg; sourceTree = "<group>"; };
+		BCECF89F1C072DE900136E32 /* a5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a5.jpg; sourceTree = "<group>"; };
+		BCECF8A01C072DE900136E32 /* a6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a6.jpg; sourceTree = "<group>"; };
+		BCECF8A11C072DE900136E32 /* a7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a7.jpg; sourceTree = "<group>"; };
+		BCECF8A21C072DE900136E32 /* a8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a8.jpg; sourceTree = "<group>"; };
+		BCECF8A31C072DE900136E32 /* a9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a9.jpg; sourceTree = "<group>"; };
+		BCECF8A51C072DE900136E32 /* b0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b0.jpg; sourceTree = "<group>"; };
+		BCECF8A61C072DE900136E32 /* b1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b1.jpg; sourceTree = "<group>"; };
+		BCECF8A71C072DE900136E32 /* b2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b2.jpg; sourceTree = "<group>"; };
+		BCECF8A81C072DE900136E32 /* b3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b3.jpg; sourceTree = "<group>"; };
+		BCECF8A91C072DE900136E32 /* b4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b4.jpg; sourceTree = "<group>"; };
+		BCECF8AA1C072DE900136E32 /* b5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b5.jpg; sourceTree = "<group>"; };
+		BCECF8AB1C072DE900136E32 /* b6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b6.jpg; sourceTree = "<group>"; };
+		BCECF8AC1C072DE900136E32 /* b7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b7.jpg; sourceTree = "<group>"; };
+		BCECF8AD1C072DE900136E32 /* b8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b8.jpg; sourceTree = "<group>"; };
+		BCECF8AE1C072DE900136E32 /* b9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b9.jpg; sourceTree = "<group>"; };
+		BCECF8B01C072DE900136E32 /* c0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c0.jpg; sourceTree = "<group>"; };
+		BCECF8B11C072DE900136E32 /* c1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c1.jpg; sourceTree = "<group>"; };
+		BCECF8B21C072DE900136E32 /* c10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c10.jpg; sourceTree = "<group>"; };
+		BCECF8B31C072DE900136E32 /* c2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c2.jpg; sourceTree = "<group>"; };
+		BCECF8B41C072DE900136E32 /* c3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c3.jpg; sourceTree = "<group>"; };
+		BCECF8B51C072DE900136E32 /* c4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c4.jpg; sourceTree = "<group>"; };
+		BCECF8B61C072DE900136E32 /* c5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c5.jpg; sourceTree = "<group>"; };
+		BCECF8B71C072DE900136E32 /* c6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c6.jpg; sourceTree = "<group>"; };
+		BCECF8B81C072DE900136E32 /* c7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c7.jpg; sourceTree = "<group>"; };
+		BCECF8B91C072DE900136E32 /* c8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c8.jpg; sourceTree = "<group>"; };
+		BCECF8BA1C072DE900136E32 /* c9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c9.jpg; sourceTree = "<group>"; };
+		BCECF8DD1C07382800136E32 /* YSSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSSecondViewController.h; sourceTree = "<group>"; };
+		BCECF8DE1C07382800136E32 /* YSSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSSecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCECF85D1C07290F00136E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCECF8661C07290F00136E32 /* CoreGraphics.framework in Frameworks */,
+				BCECF8681C07290F00136E32 /* UIKit.framework in Frameworks */,
+				BCECF8641C07290F00136E32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCECF8781C07290F00136E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCECF87D1C07290F00136E32 /* XCTest.framework in Frameworks */,
+				BCECF87F1C07290F00136E32 /* UIKit.framework in Frameworks */,
+				BCECF87E1C07290F00136E32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCECF8571C07290F00136E32 = {
+			isa = PBXGroup;
+			children = (
+				BCECF8691C07290F00136E32 /* YSPhoto */,
+				BCECF8821C07290F00136E32 /* YSPhotoTests */,
+				BCECF8621C07290F00136E32 /* Frameworks */,
+				BCECF8611C07290F00136E32 /* Products */,
+				BCECF8951C072DE900136E32 /* images */,
+			);
+			sourceTree = "<group>";
+		};
+		BCECF8611C07290F00136E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8601C07290F00136E32 /* YSPhoto.app */,
+				BCECF87B1C07290F00136E32 /* YSPhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCECF8621C07290F00136E32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8631C07290F00136E32 /* Foundation.framework */,
+				BCECF8651C07290F00136E32 /* CoreGraphics.framework */,
+				BCECF8671C07290F00136E32 /* UIKit.framework */,
+				BCECF87C1C07290F00136E32 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCECF8691C07290F00136E32 /* YSPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8721C07290F00136E32 /* AppDelegate.h */,
+				BCECF8731C07290F00136E32 /* AppDelegate.m */,
+				BCECF8921C07291C00136E32 /* YSRootViewController.h */,
+				BCECF8931C07291C00136E32 /* YSRootViewController.m */,
+				BCECF8DD1C07382800136E32 /* YSSecondViewController.h */,
+				BCECF8DE1C07382800136E32 /* YSSecondViewController.m */,
+				BCECF8751C07290F00136E32 /* Images.xcassets */,
+				BCECF86A1C07290F00136E32 /* Supporting Files */,
+			);
+			path = YSPhoto;
+			sourceTree = "<group>";
+		};
+		BCECF86A1C07290F00136E32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF86B1C07290F00136E32 /* YSPhoto-Info.plist */,
+				BCECF86C1C07290F00136E32 /* InfoPlist.strings */,
+				BCECF86F1C07290F00136E32 /* main.m */,
+				BCECF8711C07290F00136E32 /* YSPhoto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCECF8821C07290F00136E32 /* YSPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8881C07290F00136E32 /* YSPhotoTests.m */,
+				BCECF8831C07290F00136E32 /* Supporting Files */,
+			);
+			path = YSPhotoTests;
+			sourceTree = "<group>";
+		};
+		BCECF8831C07290F00136E32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8841C07290F00136E32 /* YSPhotoTests-Info.plist */,
+				BCECF8851C07290F00136E32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCECF8951C072DE900136E32 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8961C072DE900136E32 /* a */,
+				BCECF8A41C072DE900136E32 /* b */,
+				BCECF8AF1C072DE900136E32 /* c */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BCECF8961C072DE900136E32 /* a */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8971C072DE900136E32 /* a0.jpg */,
+				BCECF8981C072DE900136E32 /* a1.jpg */,
+				BCECF8991C072DE900136E32 /* a10.jpg */,
+				BCECF89A1C072DE900136E32 /* a11.jpg */,
+				BCECF89B1C072DE900136E32 /* a12.jpg */,
+				BCECF89C1C072DE900136E32 /* a2.jpg */,
+				BCECF89D1C072DE900136E32 /* a3.jpg */,
+				BCECF89E1C072DE900136E32 /* a4.jpg */,
+				BCECF89F1C072DE900136E32 /* a5.jpg */,
+				BCECF8A01C072DE900136E32 /* a6.jpg */,
+				BCECF8A11C072DE900136E32 /* a7.jpg */,
+				BCECF8A21C072DE900136E32 /* a8.jpg */,
+				BCECF8A31C072DE900136E32 /* a9.jpg */,
+			);
+			path = a;
+			sourceTree = "<group>";
+		};
+		BCECF8A41C072DE900136E32 /* b */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8A51C072DE900136E32 /* b0.jpg */,
+				BCECF8A61C072DE900136E32 /* b1.jpg */,
+				BCECF8A71C072DE900136E32 /* b2.jpg */,
+				BCECF8A81C072DE900136E32 /* b3.jpg */,
+				BCECF8A91C072DE900136E32 /* b4.jpg */,
+				BCECF8AA1C072DE900136E32 /* b5.jpg */,
+				BCECF8AB1C072DE900136E32 /* b6.jpg */,
+				BCECF8AC1C072DE900136E32 /* b7.jpg */,
+				BCECF8AD1C072DE900136E32 /* b8.jpg */,
+				BCECF8AE1C072DE900136E32 /* b9.jpg */,
+			);
+			path = b;
+			sourceTree = "<group>";
+		};
+		BCECF8AF1C072DE900136E32 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				BCECF8B01C072DE900136E32 /* c0.jpg */,
+				BCECF8B11C072DE900136E32 /* c1.jpg */,
+				BCECF8B21C072DE900136E32 /* c10.jpg */,
+				BCECF8B31C072DE900136E32 /* c2.jpg */,
+				BCECF8B41C072DE900136E32 /* c3.jpg */,
+				BCECF8B51C072DE900136E32 /* c4.jpg */,
+				BCECF8B61C072DE900136E32 /* c5.jpg */,
+				BCECF8B71C072DE900136E32 /* c6.jpg */,
+				BCECF8B81C072DE900136E32 /* c7.jpg */,
+				BCECF8B91C072DE900136E32 /* c8.jpg */,
+				BCECF8BA1C072DE900136E32 /* c9.jpg */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCECF85F1C07290F00136E32 /* YSPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCECF88C1C07290F00136E32 /* Build configuration list for PBXNativeTarget "YSPhoto" */;
+			buildPhases = (
+				BCECF85C1C07290F00136E32 /* Sources */,
+				BCECF85D1C07290F00136E32 /* Frameworks */,
+				BCECF85E1C07290F00136E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSPhoto;
+			productName = YSPhoto;
+			productReference = BCECF8601C07290F00136E32 /* YSPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCECF87A1C07290F00136E32 /* YSPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCECF88F1C07290F00136E32 /* Build configuration list for PBXNativeTarget "YSPhotoTests" */;
+			buildPhases = (
+				BCECF8771C07290F00136E32 /* Sources */,
+				BCECF8781C07290F00136E32 /* Frameworks */,
+				BCECF8791C07290F00136E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCECF8811C07290F00136E32 /* PBXTargetDependency */,
+			);
+			name = YSPhotoTests;
+			productName = YSPhotoTests;
+			productReference = BCECF87B1C07290F00136E32 /* YSPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCECF8581C07290F00136E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = YS;
+				TargetAttributes = {
+					BCECF87A1C07290F00136E32 = {
+						TestTargetID = BCECF85F1C07290F00136E32;
+					};
+				};
+			};
+			buildConfigurationList = BCECF85B1C07290F00136E32 /* Build configuration list for PBXProject "YSPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCECF8571C07290F00136E32;
+			productRefGroup = BCECF8611C07290F00136E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCECF85F1C07290F00136E32 /* YSPhoto */,
+				BCECF87A1C07290F00136E32 /* YSPhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCECF85E1C07290F00136E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCECF8D21C072DE900136E32 /* c0.jpg in Resources */,
+				BCECF8CD1C072DE900136E32 /* b5.jpg in Resources */,
+				BCECF8C51C072DE900136E32 /* a7.jpg in Resources */,
+				BCECF8C21C072DE900136E32 /* a4.jpg in Resources */,
+				BCECF8C01C072DE900136E32 /* a2.jpg in Resources */,
+				BCECF8CB1C072DE900136E32 /* b3.jpg in Resources */,
+				BCECF8D11C072DE900136E32 /* b9.jpg in Resources */,
+				BCECF86E1C07290F00136E32 /* InfoPlist.strings in Resources */,
+				BCECF8CF1C072DE900136E32 /* b7.jpg in Resources */,
+				BCECF8C91C072DE900136E32 /* b1.jpg in Resources */,
+				BCECF8D71C072DE900136E32 /* c4.jpg in Resources */,
+				BCECF8DA1C072DE900136E32 /* c7.jpg in Resources */,
+				BCECF8BB1C072DE900136E32 /* a0.jpg in Resources */,
+				BCECF8D91C072DE900136E32 /* c6.jpg in Resources */,
+				BCECF8C41C072DE900136E32 /* a6.jpg in Resources */,
+				BCECF8D81C072DE900136E32 /* c5.jpg in Resources */,
+				BCECF8C61C072DE900136E32 /* a8.jpg in Resources */,
+				BCECF8D51C072DE900136E32 /* c2.jpg in Resources */,
+				BCECF8C81C072DE900136E32 /* b0.jpg in Resources */,
+				BCECF8D61C072DE900136E32 /* c3.jpg in Resources */,
+				BCECF8D31C072DE900136E32 /* c1.jpg in Resources */,
+				BCECF8CA1C072DE900136E32 /* b2.jpg in Resources */,
+				BCECF8BD1C072DE900136E32 /* a10.jpg in Resources */,
+				BCECF8CE1C072DE900136E32 /* b6.jpg in Resources */,
+				BCECF8D01C072DE900136E32 /* b8.jpg in Resources */,
+				BCECF8DB1C072DE900136E32 /* c8.jpg in Resources */,
+				BCECF8C11C072DE900136E32 /* a3.jpg in Resources */,
+				BCECF8C31C072DE900136E32 /* a5.jpg in Resources */,
+				BCECF8C71C072DE900136E32 /* a9.jpg in Resources */,
+				BCECF8CC1C072DE900136E32 /* b4.jpg in Resources */,
+				BCECF8BE1C072DE900136E32 /* a11.jpg in Resources */,
+				BCECF8BF1C072DE900136E32 /* a12.jpg in Resources */,
+				BCECF8761C07290F00136E32 /* Images.xcassets in Resources */,
+				BCECF8DC1C072DE900136E32 /* c9.jpg in Resources */,
+				BCECF8D41C072DE900136E32 /* c10.jpg in Resources */,
+				BCECF8BC1C072DE900136E32 /* a1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCECF8791C07290F00136E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCECF8871C07290F00136E32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCECF85C1C07290F00136E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCECF8741C07290F00136E32 /* AppDelegate.m in Sources */,
+				BCECF8701C07290F00136E32 /* main.m in Sources */,
+				BCECF8DF1C07382800136E32 /* YSSecondViewController.m in Sources */,
+				BCECF8941C07291C00136E32 /* YSRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCECF8771C07290F00136E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCECF8891C07290F00136E32 /* YSPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCECF8811C07290F00136E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCECF85F1C07290F00136E32 /* YSPhoto */;
+			targetProxy = BCECF8801C07290F00136E32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCECF86C1C07290F00136E32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCECF86D1C07290F00136E32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCECF8851C07290F00136E32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCECF8861C07290F00136E32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCECF88A1C07290F00136E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCECF88B1C07290F00136E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCECF88D1C07290F00136E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSPhoto/YSPhoto-Prefix.pch";
+				INFOPLIST_FILE = "YSPhoto/YSPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCECF88E1C07290F00136E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSPhoto/YSPhoto-Prefix.pch";
+				INFOPLIST_FILE = "YSPhoto/YSPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCECF8901C07290F00136E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSPhoto.app/YSPhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSPhoto/YSPhoto-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YSPhotoTests/YSPhotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCECF8911C07290F00136E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSPhoto.app/YSPhoto";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSPhoto/YSPhoto-Prefix.pch";
+				INFOPLIST_FILE = "YSPhotoTests/YSPhotoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCECF85B1C07290F00136E32 /* Build configuration list for PBXProject "YSPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCECF88A1C07290F00136E32 /* Debug */,
+				BCECF88B1C07290F00136E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCECF88C1C07290F00136E32 /* Build configuration list for PBXNativeTarget "YSPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCECF88D1C07290F00136E32 /* Debug */,
+				BCECF88E1C07290F00136E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCECF88F1C07290F00136E32 /* Build configuration list for PBXNativeTarget "YSPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCECF8901C07290F00136E32 /* Debug */,
+				BCECF8911C07290F00136E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCECF8581C07290F00136E32 /* Project object */;
+}
